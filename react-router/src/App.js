@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom'
 
 import './App.css';
 
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <div className="App">
+    <Router>
       <header>
         <h1 className="title">Welcome to Monty's Mineral SPA</h1>
 
@@ -30,6 +32,7 @@ function App() {
         </div>
 
       </header>
+    </Router>  
     </div>
   );
 }
